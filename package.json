@@ -1,0 +1,14 @@
+{
+  "name": "property-document-ocr-search",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node --experimental-strip-types src/property_document_pipeline.ts",
+    "test": "node --experimental-strip-types --test src/property_document_pipeline.test.ts"
+  },
+  "dependencies": {
+    "openai": "^4.104.0",
+    "zod": "^3.25.0"
+  }
+}
